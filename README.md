@@ -49,7 +49,7 @@ Como este é um projeto front-end estático, não há necessidade de instalaçã
 3.  Abra o arquivo `index.html` no seu navegador de preferência.
 
 O site também está disponível online via GitHub Pages no seguinte link:
-**[https://gabste8831.github.io/Doceria-Gerencia-de-Projetos/](https://gabste8831.github.io/Doceria-Gerencia-de-Projetos/)**
+**https://doceria-gerencia-de-projetos.vercel.app/**
 
 ---
 
