@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio - Bolos da Ká</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <div class="logo">
+            <a href="index.html">
+                <img src="src/logo.svg" alt="Logo Bolos da Ká">
+            </a>
+        </div>
+        <nav class="navegacao">
+            <ul>
+                <li><a href="index.html">INÍCIO</a></li>
+                <li><a href="sobre.html">SOBRE</a></li>
+                <li><a href="cardapio.html">CARDÁPIO</a></li> 
+                <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cardapio-container">
+            <div class="cardapio-imagem">
+                <img src="src/bolo.svg" alt="Bolo de chocolate decorado">
+            </div>
+
+            <div class="cardapio-conteudo">
+                <nav class="cardapio-tabs">
+                    <ul>
+                        <li><button class="tab-btn active" data-target="info-avisos">Avisos</button></li>
+                        <li><button class="tab-btn" data-target="info-tamanhos">Tamanhos</button></li>
+                        <li><button class="tab-btn" data-target="info-recheios">Recheios</button></li>
+                    </ul>
+                </nav>
+
+                <div class="cardapio-info">
+                    <div id="info-avisos" class="info-painel visivel">
+                        <div class="info-aviso-grid">
+                            <div class="info-box-aviso">
+                                <i class="fa-solid fa-hourglass-half"></i>
+                                <p>Encomendas devem ser feitas com no mínimo 7 dias de antecedência.</p>
+                            </div>
+                            <div class="info-box-aviso">
+                                <i class="fa-solid fa-cake-candles"></i>
+                                <p>Decorações com Flores ou Topo de Bolo, variam entre R$35,00 à R$60,00</p>
+                            </div>
+                            <div class="info-box-aviso pagamento">
+                                <i class="fa-solid fa-hand-holding-dollar"></i>
+                                <h4>Pagamento</h4>
+                                <p>Formas de Pagamento: PIX e Dinheiro</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="info-tamanhos" class="info-painel">
+                        <ul class="lista-itens">
+                            <li>
+                                <i class="fa-solid fa-cake-candles"></i>
+                                <span>Tamanho 15cm + 10 Fatias</span> <span>por R$140,00</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-cake-candles"></i>
+                                <span>Tamanho 20cm + 20 Fatias</span> <span>por R$180,00</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-cake-candles"></i>
+                                <span>Tamanho 25cm + 30 Fatias</span> <span>por R$240,00</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="info-recheios" class="info-painel">
+                        <ul class="lista-itens">
+                            <li><i class="fa-solid fa-cookie-bite"></i>Bolo Red Velvet</li>
+                            <li><i class="fa-solid fa-cookie-bite"></i>Bolo de Abacaxi com Coco</li>
+                            <li><i class="fa-solid fa-cookie-bite"></i>Bolo de Brigadeiro</li>
+                            <li><i class="fa-solid fa-cookie-bite"></i>Bolo de Prestígio, creme e crocante</li>
+                            <li><i class="fa-solid fa-cookie-bite"></i>Bolo de Morango com Chocolate</li>
+                            <li><i class="fa-solid fa-cookie-bite"></i>Bolo 4 leites com Morango</li>
+                            <li><i class="fa-solid fa-cookie-bite"></i>Bolo de Frutas Amarelas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="onda-divisor"></div>
+        </section>
+    </main>
+
+</body>
+<script src="script.js" defer></script>
+</html>
